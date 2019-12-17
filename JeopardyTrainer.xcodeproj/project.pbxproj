@@ -3,19 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		740EE2DE239DAA58001CBD96 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740EE2DD239DAA58001CBD96 /* Categories.swift */; };
+		740EE2E0239DAA92001CBD96 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740EE2DF239DAA92001CBD96 /* Category.swift */; };
+		740EE2E2239DBED0001CBD96 /* Clues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740EE2E1239DBED0001CBD96 /* Clues.swift */; };
+		740EE2E4239DBF35001CBD96 /* Clue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740EE2E3239DBF35001CBD96 /* Clue.swift */; };
+		740EE2E8239DD956001CBD96 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740EE2E7239DD956001CBD96 /* SplashScreenViewController.swift */; };
+		7463199923A853A5006FBB3E /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463199823A853A5006FBB3E /* QuestionsViewController.swift */; };
 		747544A9239DA81100EF5610 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747544A8239DA81100EF5610 /* AppDelegate.swift */; };
 		747544AB239DA81100EF5610 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747544AA239DA81100EF5610 /* SceneDelegate.swift */; };
 		747544AD239DA81100EF5610 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747544AC239DA81100EF5610 /* ViewController.swift */; };
 		747544B0239DA81100EF5610 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 747544AE239DA81100EF5610 /* Main.storyboard */; };
 		747544B2239DA81200EF5610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 747544B1239DA81200EF5610 /* Assets.xcassets */; };
 		747544B5239DA81200EF5610 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 747544B3239DA81200EF5610 /* LaunchScreen.storyboard */; };
+		7D636C6BAD0759FF197BB675 /* Pods_JeopardyTrainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9858B70C4754185FEC5974D7 /* Pods_JeopardyTrainer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D110F4EB350BBBD5D65E0DD /* Pods-JeopardyTrainer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JeopardyTrainer.release.xcconfig"; path = "Target Support Files/Pods-JeopardyTrainer/Pods-JeopardyTrainer.release.xcconfig"; sourceTree = "<group>"; };
+		57CE85D46620E17277196CEB /* Pods-JeopardyTrainer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JeopardyTrainer.debug.xcconfig"; path = "Target Support Files/Pods-JeopardyTrainer/Pods-JeopardyTrainer.debug.xcconfig"; sourceTree = "<group>"; };
+		740EE2DD239DAA58001CBD96 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		740EE2DF239DAA92001CBD96 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		740EE2E1239DBED0001CBD96 /* Clues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clues.swift; sourceTree = "<group>"; };
+		740EE2E3239DBF35001CBD96 /* Clue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clue.swift; sourceTree = "<group>"; };
+		740EE2E7239DD956001CBD96 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		7463199823A853A5006FBB3E /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
 		747544A5239DA81100EF5610 /* JeopardyTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JeopardyTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		747544A8239DA81100EF5610 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		747544AA239DA81100EF5610 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,7 @@
 		747544B1239DA81200EF5610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		747544B4239DA81200EF5610 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		747544B6239DA81200EF5610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9858B70C4754185FEC5974D7 /* Pods_JeopardyTrainer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JeopardyTrainer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D636C6BAD0759FF197BB675 /* Pods_JeopardyTrainer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		207F72C0CF042AE79C1386B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57CE85D46620E17277196CEB /* Pods-JeopardyTrainer.debug.xcconfig */,
+				1D110F4EB350BBBD5D65E0DD /* Pods-JeopardyTrainer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		637F4DD8D54D99D43A43DC29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9858B70C4754185FEC5974D7 /* Pods_JeopardyTrainer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7475449C239DA81100EF5610 = {
 			isa = PBXGroup;
 			children = (
 				747544A7239DA81100EF5610 /* JeopardyTrainer */,
 				747544A6239DA81100EF5610 /* Products */,
+				207F72C0CF042AE79C1386B3 /* Pods */,
+				637F4DD8D54D99D43A43DC29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,7 +95,13 @@
 				747544A8239DA81100EF5610 /* AppDelegate.swift */,
 				747544AA239DA81100EF5610 /* SceneDelegate.swift */,
 				747544AC239DA81100EF5610 /* ViewController.swift */,
+				740EE2E1239DBED0001CBD96 /* Clues.swift */,
+				740EE2E3239DBF35001CBD96 /* Clue.swift */,
 				747544AE239DA81100EF5610 /* Main.storyboard */,
+				740EE2E7239DD956001CBD96 /* SplashScreenViewController.swift */,
+				7463199823A853A5006FBB3E /* QuestionsViewController.swift */,
+				740EE2DD239DAA58001CBD96 /* Categories.swift */,
+				740EE2DF239DAA92001CBD96 /* Category.swift */,
 				747544B1239DA81200EF5610 /* Assets.xcassets */,
 				747544B3239DA81200EF5610 /* LaunchScreen.storyboard */,
 				747544B6239DA81200EF5610 /* Info.plist */,
@@ -74,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 747544B9239DA81200EF5610 /* Build configuration list for PBXNativeTarget "JeopardyTrainer" */;
 			buildPhases = (
+				D3C7101B7E606550475FF492 /* [CP] Check Pods Manifest.lock */,
 				747544A1239DA81100EF5610 /* Sources */,
 				747544A2239DA81100EF5610 /* Frameworks */,
 				747544A3239DA81100EF5610 /* Resources */,
+				CA801CF0746C67BB964C0A93 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +177,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CA801CF0746C67BB964C0A93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JeopardyTrainer/Pods-JeopardyTrainer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JeopardyTrainer/Pods-JeopardyTrainer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JeopardyTrainer/Pods-JeopardyTrainer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3C7101B7E606550475FF492 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JeopardyTrainer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		747544A1239DA81100EF5610 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				747544AD239DA81100EF5610 /* ViewController.swift in Sources */,
+				740EE2E4239DBF35001CBD96 /* Clue.swift in Sources */,
+				740EE2E8239DD956001CBD96 /* SplashScreenViewController.swift in Sources */,
+				740EE2E0239DAA92001CBD96 /* Category.swift in Sources */,
+				740EE2E2239DBED0001CBD96 /* Clues.swift in Sources */,
+				740EE2DE239DAA58001CBD96 /* Categories.swift in Sources */,
+				7463199923A853A5006FBB3E /* QuestionsViewController.swift in Sources */,
 				747544A9239DA81100EF5610 /* AppDelegate.swift in Sources */,
 				747544AB239DA81100EF5610 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +374,7 @@
 		};
 		747544BA239DA81200EF5610 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57CE85D46620E17277196CEB /* Pods-JeopardyTrainer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +393,7 @@
 		};
 		747544BB239DA81200EF5610 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D110F4EB350BBBD5D65E0DD /* Pods-JeopardyTrainer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
